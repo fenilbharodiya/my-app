@@ -9,10 +9,10 @@ import StatehooksComponent from './Components/Hooks/StateHooksComponent';
 function App() {
   return (
     <>
-      {/* <ClassComponent1 /> */}
+      <ClassComponent1 />
       <FunctionComponent1 />
-      {/* <ParentComponent /> */}
-      {/* <StatehooksComponent /> */}
+      <ParentComponent />
+      <StatehooksComponent />
     </>
   );
 }
