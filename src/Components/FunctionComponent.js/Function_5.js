@@ -1,4 +1,4 @@
-export default function Component5() 
+export default function FunctionComponent5() 
 {
     return (
         <>

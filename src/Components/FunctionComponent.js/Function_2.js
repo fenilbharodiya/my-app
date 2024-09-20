@@ -1,12 +1,12 @@
-import Component3 from "./Function_3";
+import FunctionComponent3 from "./Function_3";
 
-function Component2() {
+function FunctionComponent2() {
     return (
         <>
             <h1>Function_Component_2</h1>
-            <Component3 />
+            <FunctionComponent3 />
         </>
     )
 }
 
-export default Component2;
+export default FunctionComponent2;

@@ -1,12 +1,13 @@
-import Component4 from "./Function_4";
+import FunctionComponent4 from "./Function_4";
 
-function Component3() {
+
+function FunctionComponent3() {
     return (
         <>
             <h1>Function_Component_3</h1>
-            <Component4 />
+            <FunctionComponent4 />
         </>
     )
 }
 
-export default Component3;
+export default FunctionComponent3;
