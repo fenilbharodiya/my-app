@@ -5,6 +5,7 @@ import FunctionComponent1 from './Components/FunctionComponent.js/Function_1';
 import ListandKeysComponent from './Components/List_and_keys/ListandKeysComponent';
 import StatehooksComponent from './Components/Hooks/StateHooksComponent';
 import UseEffectHookComponent from './Components/Hooks/UseEffectHookComponent';
+import SimpleFormValidation from './Components/Form/SimpleFormValidation';
 
 
 
@@ -16,7 +17,8 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <StatehooksComponent /> */}
       {/* <UseEffectHookComponent /> */}
-      <ListandKeysComponent />
+      {/* <ListandKeysComponent /> */}
+      <SimpleFormValidation />
     </>
   );
 }
