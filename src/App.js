@@ -7,6 +7,7 @@ import StatehooksComponent from './Components/Hooks/StateHooksComponent';
 import UseEffectHookComponent from './Components/Hooks/UseEffectHookComponent';
 import SimpleFormValidation from './Components/Form/SimpleFormValidation';
 import UserefHookComponent from './Components/Hooks/UserefHookComponent';
+import StyleComponent from './Components/Style/StyleComponent';
 
 
 
@@ -20,7 +21,8 @@ function App() {
       {/* <UseEffectHookComponent /> */}
       {/* <ListandKeysComponent /> */}
       {/* <SimpleFormValidation /> */}
-      <UserefHookComponent />
+      {/* <UserefHookComponent /> */}
+      <StyleComponent />
     </>
   );
 }
