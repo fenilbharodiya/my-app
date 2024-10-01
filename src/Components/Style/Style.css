@@ -1,10 +1,70 @@
-.text {
+ .text {
     color: white;
-    background-color: black;
-    text-shadow: 1px 1px 15px white;
+    
+    text-shadow: 1px 1px 10px black;
     height: 50px;
     text-align: center;
     padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+    padding-bottom: 93px;
+    overflow: hidden;
+    /* position: relative; */
+    animation: example 5s ease-out infinite,plus 1.5s ease-in-out infinite;
 }
+
+@keyframes example {
+    from {
+        left: 0%;
+        background-color: brown;
+        width: 0%;
+    }
+    to {
+        right: 100%;
+        background-color: brown;
+        width: 98.5%;
+    }
+}
+
+@keyframes plus {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+
+}
+
+
+/* .text {
+    color: white; 
+    background-color: brown;
+    text-shadow: 1px 1px 15px black; 
+    height: 50px; 
+    text-align: center;
+    padding-top: 15px; 
+    padding-bottom: 95px;
+    position: relative; 
+    overflow: hidden; 
+    animation: slideIn 3s ease-in-out infinite, pulse 1.5s ease-in-out infinite; 
+}
+
+@keyframes slideIn {
+    0% {
+        width: 0%; 
+    }
+    50% {
+        width: 100%; 
+    }
+    100% {
+        width: 0%; 
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1); 
+    }
+}  */
