@@ -8,7 +8,8 @@ import UseEffectHookComponent from './Components/Hooks/UseEffectHookComponent';
 import SimpleFormValidation from './Components/Form/SimpleFormValidation';
 import UserefHookComponent from './Components/Hooks/UserefHookComponent';
 import StyleComponent from './Components/Style/StyleComponent';
-import liftingStateup from './Components/lifting_Stateup/ParentComponent';
+import LiftingStateup from './Components/lifting_Stateup/ParentComponent';
+import ParentForwardRef from './Components/ForwardRefHook/ParentForwardRef';
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       {/* <SimpleFormValidation /> */}
       {/* <UserefHookComponent /> */}
       {/* <StyleComponent /> */}
-      <ParentComponent />
+      {/* <LiftingStateup /> */}
+      <ParentForwardRef />
     </>
   );
 }
