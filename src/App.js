@@ -15,6 +15,8 @@ import ContextParentComponent from './Components/Hooks/Context/ContextParentComp
 import Component_1 from './Components/Hooks/Props_driling/Component_1';
 import UseMemoComponent from './Components/Hooks/UseMemoComponent';
 import UseReducerComponent from './Components/Hooks/UseReduceComponent';
+import CounterComponent from './Components/Hooks/Custom_Hook/CounterComponent';
+import CallBackParentComponent from './Components/Hooks/Use_Call_back/CallBackParentComponent';
 
 
 function App() {
@@ -35,7 +37,9 @@ function App() {
       {/* <ContextParentComponent /> */}
       {/* <Component_1 /> */}
       {/* <UseMemoComponent /> */}
-      <UseReducerComponent />
+      {/* <UseReducerComponent /> */}
+      {/* <CounterComponent /> */}
+      <CallBackParentComponent />
     </>
   );
 }
