@@ -10,6 +10,9 @@ import UserefHookComponent from './Components/Hooks/UserefHookComponent';
 import StyleComponent from './Components/Style/StyleComponent';
 import LiftingStateup from './Components/lifting_Stateup/ParentComponent';
 import ParentForwardRef from './Components/ForwardRefHook/ParentForwardRef';
+import FragmentComponent from './Components/Fragment/FragmentComponent';
+import ContextParentComponent from './Components/Hooks/Context/ContextParentComponent';
+import Component_1 from './Components/Hooks/Props_driling/Component_1';
 
 
 function App() {
@@ -25,7 +28,10 @@ function App() {
       {/* <UserefHookComponent /> */}
       {/* <StyleComponent /> */}
       {/* <LiftingStateup /> */}
-      <ParentForwardRef />
+      {/* <ParentForwardRef /> */}
+      {/* <FragmentComponent /> */}
+      {/* <ContextParentComponent /> */}
+      <Component_1 />
     </>
   );
 }
