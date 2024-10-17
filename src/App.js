@@ -14,6 +14,7 @@ import FragmentComponent from './Components/Fragment/FragmentComponent';
 import ContextParentComponent from './Components/Hooks/Context/ContextParentComponent';
 import Component_1 from './Components/Hooks/Props_driling/Component_1';
 import UseMemoComponent from './Components/Hooks/UseMemoComponent';
+import UseReducerComponent from './Components/Hooks/UseReduceComponent';
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
       {/* <FragmentComponent /> */}
       {/* <ContextParentComponent /> */}
       {/* <Component_1 /> */}
-      <UseMemoComponent />
+      {/* <UseMemoComponent /> */}
+      <UseReducerComponent />
     </>
   );
 }
