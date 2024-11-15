@@ -1,47 +1,47 @@
-
-// import ClassComponent1 from './Components/ClassComponent.js/ClassComponent1';
-// // import ParentComponent from './Components/Event_Prop_Validation.js/ParentComponent';
-// import FunctionComponent1 from './Components/Practice_Component/FunctionComponent.js/Function_1';
-// import ListandKeysComponent from './Components/Practice_Component/List_and_keys/ListandKeysComponent';
-// import StatehooksComponent from './Components/Practice_Component/Hooks/StateHooksComponent';
-// import UseEffectHookComponent from './Components/Practice_Component/Hooks/UseEffectHookComponent';
-// import SimpleFormValidation from './Components/Practice_Component/Form/SimpleFormValidation';
-// import UserefHookComponent from './Components/Practice_Component/Hooks/UserefHookComponent';
-// import StyleComponent from './Components/Practice_Component/Style/StyleComponent';
-// import LiftingStateup from './Components/Practice_Component/lifting_Stateup/ParentComponent';
-// import ParentForwardRef from './Components/Practice_Component/ForwardRefHook/ParentForwardRef';
-// import FragmentComponent from './Components/Practice_Component/Fragment/FragmentComponent';
-// import ContextParentComponent from './Components/Practice_Component/Hooks/Context/ContextParentComponent';
-// import Component_1 from './Components/Practice_Component/Hooks/Props_driling/Component_1';
-// import UseMemoComponent from './Components/Practice_Component/Hooks/UseMemoComponent';
-// import UseReducerComponent from './Components/Practice_Component/Hooks/UseReduceComponent';
-// import CounterComponent from './Components/Practice_Component/Hooks/Custom_Hook/CounterComponent';
-// import CallBackParentComponent from './Components/Practice_Component/Hooks/Use_Call_back/CallBackParentComponent';
-import PracticeComponent from './Components/PracticeComponent';
-
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Sidebar from "./admin_template/Layouts/Sidebar";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import './admin_template/asset/css/dashboard.css'
+import "./admin_template/asset/css/custom.css"
+import Navbar from "./admin_template/Layouts/Navbar";
+import Footer from './admin_template/Layouts/Footer'
+import Form from "./admin_template/component/Form";
+import Task from "./admin_template/component/Task";
+// import Form from "./admin_template/component/Form"
+// import Task from "./admin_template/component/Task";
 function App() {
   return (
     <>
-      {/* <ClassComponent1 /> */}
-      {/* <FunctionComponent1 /> */}
-      {/* <ParentComponent /> */}
-      {/* <StatehooksComponent /> */}
-      {/* <UseEffectHookComponent /> */}
-      {/* <ListandKeysComponent /> */}
-      {/* <SimpleFormValidation /> */}
-      {/* <UserefHookComponent /> */}
-      {/* <StyleComponent /> */}
-      {/* <LiftingStateup /> */}
-      {/* <ParentForwardRef /> */}
-      {/* <FragmentComponent /> */}
-      {/* <ContextParentComponent /> */}
-      {/* <Component_1 /> */}
-      {/* <UseMemoComponent /> */}
-      {/* <UseReducerComponent /> */}
-      {/* <CounterComponent /> */}
-      {/* <CallBackParentComponent /> */}
-      <PracticeComponent />
+       <BrowserRouter>
+        {/* <HashRouter> */}
+        <div className="wrapper">
+          <Sidebar />
+          <div className="main">
+            <Navbar />
+            <main className="content">
+              <Routes>
+                 <Route path="/" element={<Form />} />
+                <Route>
+                  <Route path="/task" element={<Task />} />
+                  {/* <Route path="/users/profile/:id/:subject" element={<ProfileComponent />} /> */}
+                  {/* <Route path="/users/about" element={< />} >
+                    <Route path="/users/about/education" element={<EducationComponent />} />
+                    <Route path="/users/about/job" element={<JobComponent />} />
+                  </Route> */}
+                  {/* <Route path="/posts" element={<PostComponent />} />
+                  <Route path="/create-post" element={<PostForm />} />
+                  <Route path="/counter" element={<Counter />} /> */}
+                </Route>
+              </Routes>
+            </main>
+            <Footer />
+          </div>
+        </div>
+        {/* </HashRouter> */}
+      </BrowserRouter >
+
     </>
   );
 }
