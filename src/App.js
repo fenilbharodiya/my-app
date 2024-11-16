@@ -9,12 +9,12 @@ import Navbar from "./admin_template/Layouts/Navbar";
 import Footer from './admin_template/Layouts/Footer'
 import Form from "./admin_template/component/Form";
 import Task from "./admin_template/component/Task";
-// import Form from "./admin_template/component/Form"
-// import Task from "./admin_template/component/Task";
+import TaskDetail from "./admin_template/component/TaskDetail";
+
 function App() {
   return (
     <>
-       <BrowserRouter>
+      <BrowserRouter>
         {/* <HashRouter> */}
         <div className="wrapper">
           <Sidebar />
@@ -22,10 +22,10 @@ function App() {
             <Navbar />
             <main className="content">
               <Routes>
-                 <Route path="/" element={<Form />} />
                 <Route>
+                  <Route path="/form" element={<Form />} />
                   <Route path="/task" element={<Task />} />
-                  {/* <Route path="/users/profile/:id/:subject" element={<ProfileComponent />} /> */}
+                  <Route path="/taskdetail" element={<TaskDetail />} />
                   {/* <Route path="/users/about" element={< />} >
                     <Route path="/users/about/education" element={<EducationComponent />} />
                     <Route path="/users/about/job" element={<JobComponent />} />

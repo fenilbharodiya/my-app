@@ -14,47 +14,47 @@ export default function SidebarComponent() {
 
                     <ul className="sidebar-nav">
                         <li className="sidebar-item">
-                            <Link to="/" className="sidebar-link" href="index.html">
+                            <Link to="/task" className="sidebar-link" href="index.html">
                                 <i className="align-middle" data-feather="sliders"></i>
                                 <span className="align-middle">Task Form</span>
                             </Link>
                         </li>
-                        <li className="sidebar-item">
+                        {/* <li className="sidebar-item">
                             <Link to="/users" className="sidebar-link" href="index.html">
                                 <i className="align-middle" data-feather="sliders"></i>
                                 <span className="align-middle">Users</span>
                             </Link>
-                        </li>
-                        <li className="sidebar-item">
+                        </li> */}
+                        {/* <li className="sidebar-item">
                             <Link to="/users/profile/2/JS" className="sidebar-link" href="index.html">
                                 <i className="align-middle" data-feather="sliders"></i>
                                 <span className="align-middle ms-3">Profile</span>
                             </Link>
-                        </li>
-                        <li className="sidebar-item">
+                        </li> */}
+                        {/* <li className="sidebar-item">
                             <Link to="/users/about" className="sidebar-link" href="index.html">
                                 <i className="align-middle" data-feather="sliders"></i>
                                 <span className="align-middle ms-3">About</span>
                             </Link>
-                        </li>
-                        <li className="sidebar-item">
+                        </li> */}
+                        {/* <li className="sidebar-item">
                             <Link to="/posts" className="sidebar-link" href="index.html">
                                 <i className="align-middle" data-feather="sliders"></i>
                                 <span className="align-middle">Posts</span>
                             </Link>
-                        </li>
-                        <li className="sidebar-item">
+                        </li> */}
+                        {/* <li className="sidebar-item">
                             <Link to="/create-post" className="sidebar-link" href="index.html">
                                 <i className="align-middle" data-feather="sliders"></i>
                                 <span className="align-middle">Create Post</span>
                             </Link>
-                        </li>
-                        <li className="sidebar-item">
+                        </li> */}
+                        {/* <li className="sidebar-item">
                             <Link to="/counter" className="sidebar-link" href="index.html">
                                 <i className="align-middle" data-feather="sliders"></i>
                                 <span className="align-middle">Counter {count}</span>
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

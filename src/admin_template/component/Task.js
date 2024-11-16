@@ -84,6 +84,11 @@ export default function Task() {
 
   return (
     <div className="task-component">
+      <div>
+        <Link to='/form' href='index.html'>
+        <h1> ADD TASK</h1>
+        </Link>
+      </div>
       <table>
         <thead>
           <tr>

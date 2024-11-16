@@ -11,11 +11,11 @@ export default function NavbarComponent() {
                     <i className="hamburger align-self-center"></i>
                 </a>
 
-                <div>
-                    <Link to='/' className='form' href="index.html">
+                {/* <div>
+                    <Link to='/task' className='form' href="index.html">
                         <p>ADD TASK</p>
                     </Link>
-                </div>
+                </div> */}
                 {/* <h4>{count}</h4> */}
                 <div className="navbar-collapse collapse">
                     <ul className="navbar-nav navbar-align">
